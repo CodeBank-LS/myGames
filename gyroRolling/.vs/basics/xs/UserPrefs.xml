@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{6902A115-295C-60D6-27FC-7279B1AFE259}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Move.cs">
+    <Files>
+      <File FileName="Assets/getInput.cs" Line="50" Column="1" />
+      <File FileName="Assets/controller.cs" Line="21" Column="5" />
+      <File FileName="Assets/Move.cs" Line="30" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="basics" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Move.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Unity" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1e325abd-4ea0-402d-b46f-28ba7e0bf4ab" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
