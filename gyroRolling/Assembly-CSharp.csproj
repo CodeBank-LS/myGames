@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6902A115-295C-60D6-27FC-7279B1AFE259}</ProjectGuid>
+    <ProjectGuid>{1AE4F1E9-A74B-B8A0-AA0E-7A3E20362F5B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets/scripts/controller.cs" />
     <Compile Include="Assets/scripts/Collision.cs" />
+    <Compile Include="Assets/scripts/passTrigger.cs" />
     <Compile Include="Assets/scripts/getInput.cs" />
     <Compile Include="Assets/scripts/Move.cs" />
   </ItemGroup>
