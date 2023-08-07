@@ -355,6 +355,7 @@
 "Assets/scripts/getInput.cs"
 "Assets/scripts/Move.cs"
 "Assets/scripts/passTrigger.cs"
+"Assets/scripts/startUI.cs"
 -langversion:9.0
 
 /deterministic

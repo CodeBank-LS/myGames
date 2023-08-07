@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{1AE4F1E9-A74B-B8A0-AA0E-7A3E20362F5B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/passTrigger.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/scripts/startUI.cs">
     <Files>
       <File FileName="Assets/scripts/controller.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/Move.cs" Line="1" Column="1" />
-      <File FileName="Assets/scripts/passTrigger.cs" Line="7" Column="12" />
+      <File FileName="Assets/scripts/Move.cs" Line="15" Column="17" />
+      <File FileName="Assets/scripts/passTrigger.cs" Line="16" Column="1" />
+      <File FileName="Assets/scripts/startUI.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +12,7 @@
           <Node name="gyroRolling" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="scripts" expanded="True">
-                <Node name="passTrigger.cs" selected="True" />
+                <Node name="startUI.cs" selected="True" />
               </Node>
             </Node>
           </Node>
