@@ -1,18 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class startUI : MonoBehaviour
+public class StartGameUI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Text startText;
+
+    private void Start()
     {
-        
+        // set text
+        startText.enabled = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        // if pressed Space, hide text and start game
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            startText.enabled = false;
+            // start game
+        }
     }
 }

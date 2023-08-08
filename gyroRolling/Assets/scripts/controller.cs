@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Controller : MonoBehaviour
 {
+    private bool gameStart = false;
     //limit for the platform to rotate, maximum 90 degree
     public float maxRotateAngle = 90f;
     private float currentRotation = 0f;
@@ -34,6 +35,10 @@ public class Controller : MonoBehaviour
 
     void Update()
     {
+        if (gameStart)
+        {
+            return;
+        }
         // Detect the keys and update platform rotation accordingly
         
         if (Input.GetKey(liftRightKey_D))
@@ -102,5 +107,14 @@ public class Controller : MonoBehaviour
             transform.rotation = initialRotation;
             ballMoveScript.ResetPosition();
         }
+
+    }
+    private void StartGame()
+    {
+        // 隐藏提示文本
+        startText.enabled = false;
+        // 设置游戏已开始的标志
+        gameStart = true;
+        // 在此添加开始游戏的逻辑，例如启用球体的运动等
     }
 }
